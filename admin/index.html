@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#25231f">
+<title>Administration — L’Art des Associations</title>
+<link rel="icon" href="../icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500&display=swap">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<!-- Connexion -->
+<section class="login" id="login" hidden>
+  <div class="login-card">
+    <img src="../icons/icon-192.png" alt="" width="64" height="64" class="login-icon">
+    <div class="eyebrow">Espace privé</div>
+    <h1>Administration<br><i>L’Art des Associations</i></h1>
+    <form id="loginForm" autocomplete="off">
+      <label>Dépôt GitHub du projet<input name="repo" placeholder="votre-identifiant/art-des-associations" required spellcheck="false" autocapitalize="off"></label>
+      <label>Clé d’accès personnelle (jeton GitHub)<input name="token" type="password" placeholder="github_pat_…" required spellcheck="false" autocapitalize="off" autocomplete="off"></label>
+      <label class="check"><input type="checkbox" name="remember" checked> Rester connectée sur cet appareil</label>
+      <details class="more"><summary>Options avancées</summary><label>Branche<input name="branch" value="main" spellcheck="false" autocapitalize="off"></label></details>
+      <button class="btn dark wide" type="submit">Se connecter</button>
+      <p class="error" id="loginError" role="alert"></p>
+    </form>
+    <p class="small">La clé n’est jamais intégrée au site : elle reste uniquement sur cet appareil. Voir le guide « Créer sa clé d’accès » dans le fichier GUIDE-ADMINISTRATION.</p>
+    <button class="btn link" id="demoBtn" type="button">Essayer l’administration en mode local (sans publier)</button>
+  </div>
+</section>
+
+<!-- Application d’administration -->
+<div class="shell" id="shell" hidden>
+  <aside class="side">
+    <div class="side-brand"><img src="../icons/icon-192.png" alt="" width="34" height="34"><div>L’Art des Associations<small>Administration</small></div></div>
+    <nav class="tabs" id="tabs">
+      <button data-view="dashboard" class="active">Tableau de bord</button>
+      <button data-view="palettes">Palettes</button>
+      <button data-view="collections">Collections</button>
+      <button data-view="media">Médias</button>
+      <button data-view="appearance">Apparence</button>
+      <button data-view="publish">Publication <span class="pill" id="pendingPill" hidden></span></button>
+      <button data-view="help">Aide</button>
+    </nav>
+    <div class="side-foot"><span id="modeLabel"></span><button class="btn link" data-act="logout">Se déconnecter</button></div>
+  </aside>
+  <main class="main">
+    <div class="topbar">
+      <div class="status" id="status"></div>
+      <div class="top-actions">
+        <button class="btn" data-act="preview">Aperçu ↗</button>
+        <button class="btn dark" data-act="go-publish">Publier</button>
+      </div>
+    </div>
+    <div id="view"></div>
+  </main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<input type="file" id="fileInput" accept="image/*" multiple hidden>
+<input type="file" id="importInput" accept="application/json,.json" hidden>
+
+<script src="../assets/core.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

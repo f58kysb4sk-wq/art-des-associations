@@ -1,0 +1,30 @@
+{
+  "id": "./",
+  "name": "L’Art des Associations",
+  "short_name": "Associations",
+  "description": "Bibliothèque de palettes de couleurs mises en scène sur des concepts de sites vitrines.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f7f5f0",
+  "theme_color": "#f7f5f0",
+  "categories": ["design", "productivity", "business"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "screenshots": [
+    { "src": "icons/screenshot-wide.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "Le catalogue sur ordinateur" },
+    { "src": "icons/screenshot-mobile.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Une palette et sa simulation de site" }
+  ],
+  "shortcuts": [
+    { "name": "Mes favoris", "url": "./#/favoris", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Toutes les palettes", "url": "./#/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

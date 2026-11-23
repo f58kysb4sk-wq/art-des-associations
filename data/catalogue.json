@@ -1,0 +1,5900 @@
+{
+ "schema": 1,
+ "updatedAt": "2026-11-23T15:00:00Z",
+ "site": {
+  "brand": "L’ART DES ASSOCIATIONS",
+  "brandSub": "THE COLOR ATELIER · COLLECTION ÉTENDUE",
+  "logo": "",
+  "heroEyebrow": "Bibliothèque de direction artistique · Édition 2026",
+  "heroTitle": "La couleur\n*prend vie.*",
+  "heroText": "{total} harmonies singulières. Des inspirations haute couture, architecture et design, mises en scène sur de véritables concepts de sites vitrines.",
+  "heroCta": "CHOISISSEZ UNE COULEUR POUR EXPLORER ↓",
+  "heroImage": "",
+  "heroArtLabel": "L’ART DES ASSOCIATIONS",
+  "heroArtLabelSub": "— STUDIO 2026",
+  "heroArtText": "La beauté des\n*harmonies.*",
+  "heroArtIndex": "01 / {total}   ·   COLOUR STORIES",
+  "familiesTitle": "Explorer par couleur",
+  "familiesHint": "Les familles sont calculées à partir des couleurs réelles de chaque palette. Une teinte beige ou taupe ne sera pas classée comme orange.",
+  "galleryEyebrow": "LA COLLECTION COMPLÈTE",
+  "galleryTitle": "Ou laissez-vous surprendre.",
+  "galleryText": "Pas de couleur en tête ? Explorez librement les {total} associations et découvrez leur rendu sur un site vitrine.",
+  "galleryNote": "Cliquez sur une association pour afficher ses cinq nuances, les codes HEX et la simulation du site en grand.",
+  "detailDefaultDescription": "Une harmonie, une direction artistique, une expérience digitale.",
+  "mockupNote": "Concept de site vitrine fictif. Structure et couleurs personnalisables selon votre activité.",
+  "footer": "L’ART DES ASSOCIATIONS · {total} PALETTES · {colors} COULEURS · MAQUETTES CONCEPTUELLES",
+  "showFamilies": true,
+  "showGallery": true,
+  "contact": {
+   "name": "",
+   "email": "",
+   "phone": "",
+   "website": "",
+   "instagram": "",
+   "message": "Un coup de cœur pour une palette ? Parlons de votre futur site."
+  },
+  "theme": {
+   "ink": "#25231f",
+   "paper": "#f7f5f0",
+   "line": "#e3dfd6",
+   "accent": "#25231f"
+  },
+  "mockup": {
+   "titles": [
+    "Un regard singulier.",
+    "Le détail fait tout.",
+    "Créer l’exception.",
+    "L’art de recevoir.",
+    "Une autre idée du beau.",
+    "L’essentiel, autrement."
+   ],
+   "labels": [
+    "MAISON / ÉDITION",
+    "ATELIER / CRÉATION",
+    "STUDIO / DESIGN",
+    "COLLECTION / SIGNATURE",
+    "MAISON / ATELIER",
+    "ARCHITECTURE / ESPACE"
+   ]
+  }
+ },
+ "families": [
+  {
+   "id": "roses",
+   "name": "Roses",
+   "rule": "Roses",
+   "swatches": [
+    "#E9C7CE",
+    "#D37E9D",
+    "#743D56"
+   ],
+   "parent": "",
+   "visible": true,
+   "description": ""
+  },
+  {
+   "id": "rouges",
+   "name": "Rouges",
+   "rule": "Rouges",
+   "swatches": [
+    "#E8B2A4",
+    "#B54B52",
+    "#642A3E"
+   ],
+   "parent": "",
+   "visible": true,
+   "description": ""
+  },
+  {
+   "id": "oranges",
+   "name": "Oranges",
+   "rule": "Oranges",
+   "swatches": [
+    "#F7D2A6",
+    "#E99852",
+    "#B45B37"
+   ],
+   "parent": "",
+   "visible": true,
+   "description": ""
+  },
+  {
+   "id": "jaunes",
+   "name": "Jaunes",
+   "rule": "Jaunes",
+   "swatches": [
+    "#FFF2B8",
+    "#E5CB66",
+    "#9D8537"
+   ],
+   "parent": "",
+   "visible": true,
+   "description": ""
+  },
+  {
+   "id": "verts",
+   "name": "Verts",
+   "rule": "Verts",
+   "swatches": [
+    "#D7E2BB",
+    "#91B28A",
+    "#305A49"
+   ],
+   "parent": "",
+   "visible": true,
+   "description": ""
+  },
+  {
+   "id": "bleus",
+   "name": "Bleus",
+   "rule": "Bleus",
+   "swatches": [
+    "#C7E0EA",
+    "#6A9DBA",
+    "#284D8C"
+   ],
+   "parent": "",
+   "visible": true,
+   "description": ""
+  },
+  {
+   "id": "violets",
+   "name": "Violets",
+   "rule": "Violets",
+   "swatches": [
+    "#E2D2E9",
+    "#AB91C5",
+    "#59416E"
+   ],
+   "parent": "",
+   "visible": true,
+   "description": ""
+  },
+  {
+   "id": "neutres",
+   "name": "Neutres",
+   "rule": "Neutres",
+   "swatches": [
+    "#F2EADF",
+    "#C5B39E",
+    "#4D403B"
+   ],
+   "parent": "",
+   "visible": true,
+   "description": ""
+  }
+ ],
+ "intensities": [
+  {
+   "id": "pastel",
+   "name": "Pastel",
+   "rule": "pastel"
+  },
+  {
+   "id": "nude",
+   "name": "Nude & doux",
+   "rule": "nude"
+  },
+  {
+   "id": "vif",
+   "name": "Vif & pétillant",
+   "rule": "vif"
+  },
+  {
+   "id": "flashy",
+   "name": "Flashy & néon",
+   "rule": "flashy"
+  },
+  {
+   "id": "profond",
+   "name": "Profond & intense",
+   "rule": "profond"
+  }
+ ],
+ "palettes": [
+  {
+   "id": 1,
+   "name": "Dusty Rose",
+   "colors": [
+    "#BDA197",
+    "#836150",
+    "#EDE3E3",
+    "#CD7787",
+    "#60412F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 2,
+   "name": "Rose Poudré",
+   "colors": [
+    "#F8ECE9",
+    "#E8C9C7",
+    "#DCA8AE",
+    "#A97678",
+    "#5C3E40"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 3,
+   "name": "Balletcore",
+   "colors": [
+    "#FFF8F4",
+    "#F0DDE1",
+    "#DDB6C6",
+    "#B58D9E",
+    "#5B4753"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 4,
+   "name": "Rose & Moka",
+   "colors": [
+    "#F7F0EA",
+    "#DABDB4",
+    "#B7857F",
+    "#806158",
+    "#49342F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 5,
+   "name": "Blush Atelier",
+   "colors": [
+    "#FFF6F3",
+    "#F5D6D4",
+    "#E5A6AE",
+    "#BF778B",
+    "#703F53"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 6,
+   "name": "Vieux Rose",
+   "colors": [
+    "#F5EBE8",
+    "#D8B7B5",
+    "#BC8F96",
+    "#8F6774",
+    "#503F48"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 7,
+   "name": "Rose Thé",
+   "colors": [
+    "#F7F2EA",
+    "#E6D2C7",
+    "#CDA9A0",
+    "#A87975",
+    "#6A4A49"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 8,
+   "name": "Nude Satin",
+   "colors": [
+    "#FDF8F3",
+    "#E8D9D0",
+    "#D2B7AA",
+    "#AA877C",
+    "#70564C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 9,
+   "name": "Linen & Espresso",
+   "colors": [
+    "#F5F1EA",
+    "#D7C9B8",
+    "#B2967D",
+    "#7D5A44",
+    "#4A342A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 10,
+   "name": "Café Crème",
+   "colors": [
+    "#FFF9F0",
+    "#E7D4BC",
+    "#C8A681",
+    "#91694F",
+    "#523A30"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 11,
+   "name": "Sable Élégant",
+   "colors": [
+    "#FAF5EB",
+    "#E6DAC8",
+    "#C8B59A",
+    "#97816B",
+    "#5D5047"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 12,
+   "name": "Cocoa Studio",
+   "colors": [
+    "#F7EFE6",
+    "#DCC5AF",
+    "#B58F73",
+    "#7D5845",
+    "#39271F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 13,
+   "name": "Caramel",
+   "colors": [
+    "#FFF6E9",
+    "#E6C9A6",
+    "#C79B6C",
+    "#976B49",
+    "#523829"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 14,
+   "name": "Latte",
+   "colors": [
+    "#FBF7F0",
+    "#E8DED0",
+    "#D3C1AB",
+    "#AB8C72",
+    "#6D5140"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 15,
+   "name": "Noisette",
+   "colors": [
+    "#F4EADF",
+    "#D6BBA5",
+    "#B38D70",
+    "#85644D",
+    "#49372D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 16,
+   "name": "Chocolat Rosé",
+   "colors": [
+    "#F6EBE8",
+    "#D8B7AC",
+    "#B58E85",
+    "#806057",
+    "#3E2C2B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 17,
+   "name": "Old Lace",
+   "colors": [
+    "#FCF4E7",
+    "#D8B097",
+    "#3F211C",
+    "#2C2521",
+    "#C6A77A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 18,
+   "name": "Champagne",
+   "colors": [
+    "#FCF9F2",
+    "#E7D9BD",
+    "#C9AF7B",
+    "#9E8055",
+    "#3B332C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 19,
+   "name": "Noir & Ivoire",
+   "colors": [
+    "#FAF7F0",
+    "#D9D0C3",
+    "#A89B8D",
+    "#4D4843",
+    "#171717"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 20,
+   "name": "Bordeaux Couture",
+   "colors": [
+    "#F9F0E9",
+    "#E3C7BD",
+    "#A66C70",
+    "#672B3B",
+    "#2E1C22"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 21,
+   "name": "Truffe",
+   "colors": [
+    "#F8F4EE",
+    "#D3C6B6",
+    "#AA9484",
+    "#6A574D",
+    "#29231F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 22,
+   "name": "Velours",
+   "colors": [
+    "#F7EEE9",
+    "#D8B8AD",
+    "#A67E77",
+    "#6D3D41",
+    "#2B2025"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 23,
+   "name": "Perle & Bronze",
+   "colors": [
+    "#F7F5F0",
+    "#E1DAD1",
+    "#BEB2A0",
+    "#9B7957",
+    "#403A33"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 24,
+   "name": "Marbre",
+   "colors": [
+    "#FCFCFA",
+    "#E6E3DF",
+    "#B7B3AD",
+    "#77716D",
+    "#242322"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 25,
+   "name": "Lavande",
+   "colors": [
+    "#FAF7FF",
+    "#E7DDF5",
+    "#CDBCEB",
+    "#A89BCB",
+    "#675C83"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 26,
+   "name": "Pistache",
+   "colors": [
+    "#FAFBF2",
+    "#E7ECCD",
+    "#C7D5A4",
+    "#9BAE82",
+    "#5E7157"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 27,
+   "name": "Pêche",
+   "colors": [
+    "#FFF8F2",
+    "#FFE4D7",
+    "#F8BFA9",
+    "#D98C7C",
+    "#945B57"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 28,
+   "name": "Bleu Nuage",
+   "colors": [
+    "#F8FBFE",
+    "#E1EDF6",
+    "#BED8E9",
+    "#8BB4D0",
+    "#527E9D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 29,
+   "name": "Sorbet",
+   "colors": [
+    "#FFF9F2",
+    "#F7DBE5",
+    "#D9D2F1",
+    "#C8E6E1",
+    "#9EBDB8"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 30,
+   "name": "Vanille",
+   "colors": [
+    "#FFFDF2",
+    "#F8EEC7",
+    "#EBD89C",
+    "#C5B67C",
+    "#807453"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 31,
+   "name": "Lilac Nude",
+   "colors": [
+    "#FCF8FA",
+    "#EEDCE9",
+    "#D8BEDB",
+    "#B695B8",
+    "#765F7C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 32,
+   "name": "Menthe Douce",
+   "colors": [
+    "#F8FFFC",
+    "#DDF4EA",
+    "#B8E2D0",
+    "#8CBDAA",
+    "#4E8072"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 33,
+   "name": "Cherry Pop",
+   "colors": [
+    "#FFF4F1",
+    "#FFC9C5",
+    "#EE6975",
+    "#C5274B",
+    "#5B2033"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 34,
+   "name": "Fuchsia",
+   "colors": [
+    "#FFF3FA",
+    "#F8C5E7",
+    "#EE7BC7",
+    "#C63E9C",
+    "#6B225E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 35,
+   "name": "Orange Sunset",
+   "colors": [
+    "#FFF8EB",
+    "#FFD9A9",
+    "#FFAD65",
+    "#E36C47",
+    "#843D3D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 36,
+   "name": "Citron",
+   "colors": [
+    "#FFFDF0",
+    "#FFF2A6",
+    "#F4D64C",
+    "#C4A831",
+    "#60582E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 37,
+   "name": "Cobalt",
+   "colors": [
+    "#F4F8FF",
+    "#BFD6FF",
+    "#719BE7",
+    "#305CB6",
+    "#1B315F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 38,
+   "name": "Corail",
+   "colors": [
+    "#FFF5EE",
+    "#FFD0BE",
+    "#FF9A88",
+    "#E65C66",
+    "#853D54"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 39,
+   "name": "Violet",
+   "colors": [
+    "#F9F5FF",
+    "#E1CDFB",
+    "#B48EEB",
+    "#8456C7",
+    "#48266C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 40,
+   "name": "Rose Bonbon",
+   "colors": [
+    "#FFF5FB",
+    "#FFD5EB",
+    "#FFA4D1",
+    "#EF63B1",
+    "#97376E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 41,
+   "name": "Sauge",
+   "colors": [
+    "#F8F7F0",
+    "#E1E7D9",
+    "#B9C7AE",
+    "#82977C",
+    "#4D6552"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 42,
+   "name": "Olive",
+   "colors": [
+    "#F7F4E8",
+    "#DAD9BD",
+    "#B7B88B",
+    "#81885B",
+    "#4C5138"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 43,
+   "name": "Terracotta",
+   "colors": [
+    "#FCF4EC",
+    "#EBCDBB",
+    "#D99E83",
+    "#B86F54",
+    "#714A3D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 44,
+   "name": "Argile",
+   "colors": [
+    "#FAF4F0",
+    "#E4D1C6",
+    "#C9A99A",
+    "#9D796D",
+    "#604B46"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 45,
+   "name": "Eucalyptus",
+   "colors": [
+    "#F4FAF7",
+    "#D5E6DF",
+    "#A9C9BC",
+    "#709A8C",
+    "#3E625A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 46,
+   "name": "Miel",
+   "colors": [
+    "#FFF8EA",
+    "#F1D9A8",
+    "#D6B16B",
+    "#A98044",
+    "#68512F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 47,
+   "name": "Forêt",
+   "colors": [
+    "#F5F6ED",
+    "#D7DEC8",
+    "#A1B39A",
+    "#5D806A",
+    "#2C4A3B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 48,
+   "name": "Dune",
+   "colors": [
+    "#FAF6ED",
+    "#E6DDCB",
+    "#CBBEAA",
+    "#A89881",
+    "#716858"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 49,
+   "name": "Editorial Black",
+   "colors": [
+    "#FFFFFF",
+    "#E9E9E7",
+    "#B6B3AF",
+    "#5D5A56",
+    "#171717"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 50,
+   "name": "Mocha Mousse",
+   "colors": [
+    "#F7EFE8",
+    "#DFC8B9",
+    "#BA9787",
+    "#876557",
+    "#4E3833"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 51,
+   "name": "Prune",
+   "colors": [
+    "#FBF5F6",
+    "#E4C9D4",
+    "#BB8DA6",
+    "#784760",
+    "#392636"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 52,
+   "name": "Denim",
+   "colors": [
+    "#F7F8FA",
+    "#D8E1EB",
+    "#9FB3CB",
+    "#607F9E",
+    "#304B69"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 53,
+   "name": "Silver",
+   "colors": [
+    "#FFFFFF",
+    "#EDEEF0",
+    "#CDD0D4",
+    "#91959D",
+    "#42454C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 54,
+   "name": "Butter Yellow",
+   "colors": [
+    "#FFFDF3",
+    "#FFF3CC",
+    "#F4DC90",
+    "#D4B66A",
+    "#887349"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 55,
+   "name": "Ruby",
+   "colors": [
+    "#FFF6F3",
+    "#E9C1BB",
+    "#C77777",
+    "#922F42",
+    "#4A1F2C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 56,
+   "name": "Ink",
+   "colors": [
+    "#F8F8F4",
+    "#D6D9D7",
+    "#A4AFAF",
+    "#52656B",
+    "#23343B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 57,
+   "name": "Matcha & Pink",
+   "colors": [
+    "#F8F4EC",
+    "#EBC7D3",
+    "#D99DB6",
+    "#B7C78E",
+    "#687B4C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 58,
+   "name": "Electric Lilac",
+   "colors": [
+    "#F9F5FF",
+    "#DFD0FF",
+    "#B48BFA",
+    "#7952D6",
+    "#372466"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 59,
+   "name": "Papaya",
+   "colors": [
+    "#FFF9EC",
+    "#FFE3A9",
+    "#FFC16B",
+    "#F08253",
+    "#AB4C49"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 60,
+   "name": "Pink & Red",
+   "colors": [
+    "#FFF5F6",
+    "#F8B3CA",
+    "#E84B85",
+    "#C52C3F",
+    "#6A2031"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 61,
+   "name": "Ocean",
+   "colors": [
+    "#F1FBFB",
+    "#BCEBEA",
+    "#75C5CF",
+    "#338AA3",
+    "#20506D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 62,
+   "name": "Peach & Plum",
+   "colors": [
+    "#FFF5ED",
+    "#FFD6BF",
+    "#F2A69B",
+    "#9E5C82",
+    "#503453"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 63,
+   "name": "Lime Pop",
+   "colors": [
+    "#FAFFE9",
+    "#E6F6A5",
+    "#B9DD54",
+    "#78A447",
+    "#3F5C3B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 64,
+   "name": "Blue & Butter",
+   "colors": [
+    "#FFF9E5",
+    "#F6E6A7",
+    "#B7D5EE",
+    "#699DCD",
+    "#315D8A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 65,
+   "name": "Cobalt & Cacao",
+   "colors": [
+    "#F5EADB",
+    "#35251F",
+    "#2448E5",
+    "#C4A3A0",
+    "#E0B654"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 66,
+   "name": "Pistache & Bordeaux",
+   "colors": [
+    "#F2F1D9",
+    "#A7C878",
+    "#63293D",
+    "#D4A5A1",
+    "#292C26"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 67,
+   "name": "Lilas & Orange Brûlé",
+   "colors": [
+    "#F6EFEA",
+    "#BBA9DB",
+    "#C45C32",
+    "#40344C",
+    "#F1C58B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 68,
+   "name": "Cerise & Poudre",
+   "colors": [
+    "#F8E4E7",
+    "#D31738",
+    "#762A35",
+    "#F1B5AB",
+    "#342B2D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 69,
+   "name": "Beurre & Pétrole",
+   "colors": [
+    "#FFF0B2",
+    "#0D5962",
+    "#F9F5E9",
+    "#CB795A",
+    "#27373A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 70,
+   "name": "Safran & Prune",
+   "colors": [
+    "#F8E8C4",
+    "#E6A21A",
+    "#4B2847",
+    "#CBA6B5",
+    "#332C32"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 71,
+   "name": "Olive & Orchidée",
+   "colors": [
+    "#EDE6D8",
+    "#6D7650",
+    "#C4A0E4",
+    "#332E31",
+    "#CFAE7B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 72,
+   "name": "Mandarine & Indigo",
+   "colors": [
+    "#F5F0E6",
+    "#F16B3A",
+    "#302D7D",
+    "#D4C5D4",
+    "#24292B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 73,
+   "name": "Menthe & Chocolat",
+   "colors": [
+    "#F0F4E8",
+    "#B4D8B6",
+    "#533629",
+    "#D7A1A0",
+    "#253C35"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 74,
+   "name": "Bleu Klein & Crème",
+   "colors": [
+    "#F7EEDA",
+    "#1F3AC8",
+    "#E9B89A",
+    "#302F39",
+    "#D5C97D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 75,
+   "name": "Rose & Olive",
+   "colors": [
+    "#F4E8E0",
+    "#DBA1B7",
+    "#616B45",
+    "#E5CE89",
+    "#312E2D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 76,
+   "name": "Citron & Aubergine",
+   "colors": [
+    "#F4F3DC",
+    "#D9E247",
+    "#4A2B4E",
+    "#C6A6B7",
+    "#25242C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 77,
+   "name": "Émeraude & Lavande",
+   "colors": [
+    "#EEEAF2",
+    "#0D765E",
+    "#B9A5DB",
+    "#E6C06D",
+    "#27342E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 78,
+   "name": "Corail & Encre",
+   "colors": [
+    "#FAE7D9",
+    "#EF715C",
+    "#1C324B",
+    "#D4B4B4",
+    "#F0CB77"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 79,
+   "name": "Rouille & Glacier",
+   "colors": [
+    "#F1F2ED",
+    "#A84F35",
+    "#A9D9E4",
+    "#2E3C46",
+    "#D9B98D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 80,
+   "name": "Pêche & Forêt",
+   "colors": [
+    "#FFF0E4",
+    "#F3AD8D",
+    "#174A3E",
+    "#D6D4AE",
+    "#4B3432"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 81,
+   "name": "Fuchsia & Sable",
+   "colors": [
+    "#F5EBD8",
+    "#DA2489",
+    "#A9886C",
+    "#3A283C",
+    "#F3B4CF"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 82,
+   "name": "Nuit & Tangerine",
+   "colors": [
+    "#EDE9E1",
+    "#152340",
+    "#F98A32",
+    "#C9B6D6",
+    "#E3D4A1"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 83,
+   "name": "Bleu & Bordeaux",
+   "colors": [
+    "#F5E9E2",
+    "#4E83D9",
+    "#772E45",
+    "#E2B66B",
+    "#272D3C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 84,
+   "name": "Matcha & Pivoine",
+   "colors": [
+    "#F6EBD9",
+    "#A2BA69",
+    "#D56F94",
+    "#5B4037",
+    "#E7D5BA"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 85,
+   "name": "Mauve & Ocre",
+   "colors": [
+    "#F0E8E5",
+    "#AC8FB9",
+    "#C88C32",
+    "#4E3645",
+    "#D6C8B5"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 86,
+   "name": "Argile & Cyan",
+   "colors": [
+    "#F4E9D9",
+    "#B87058",
+    "#2DADB7",
+    "#333B3B",
+    "#E8BE96"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 87,
+   "name": "Acide & Espresso",
+   "colors": [
+    "#F4F2D8",
+    "#D8E83D",
+    "#4A3027",
+    "#B9A0CC",
+    "#D8B999"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 88,
+   "name": "Champagne & Ink",
+   "colors": [
+    "#F6F0E4",
+    "#CDBB9D",
+    "#1F3147",
+    "#BD7991",
+    "#E7D5C4"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 89,
+   "name": "Cerise & Cobalt",
+   "colors": [
+    "#F9EEE7",
+    "#D51F43",
+    "#2247C7",
+    "#F0B1B8",
+    "#25273C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 90,
+   "name": "Chartreuse & Prune",
+   "colors": [
+    "#F4F0DD",
+    "#D0DE43",
+    "#5A284A",
+    "#C8A6A9",
+    "#312C35"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 91,
+   "name": "Turquoise & Paprika",
+   "colors": [
+    "#FFF1DF",
+    "#2BB6B0",
+    "#C64A35",
+    "#E6B66C",
+    "#253D43"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 92,
+   "name": "Lavande & Citron Vert",
+   "colors": [
+    "#F8F4F5",
+    "#B49CE2",
+    "#CBE55B",
+    "#553C78",
+    "#E8C6BE"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 93,
+   "name": "Tomate & Beurre",
+   "colors": [
+    "#FFF3C8",
+    "#F04734",
+    "#D6B4B1",
+    "#673A35",
+    "#F9E8DB"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 94,
+   "name": "Bleu Royal & Pistache",
+   "colors": [
+    "#F6F2DE",
+    "#2544BC",
+    "#B9D98C",
+    "#E4A78E",
+    "#292B46"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 95,
+   "name": "Aubergine & Abricot",
+   "colors": [
+    "#F9E9D7",
+    "#4E2A53",
+    "#F4A36B",
+    "#D4B4C8",
+    "#30272E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 96,
+   "name": "Rose Barbie & Olive",
+   "colors": [
+    "#F7EAD9",
+    "#E92C94",
+    "#777B3F",
+    "#F6B6D7",
+    "#302B27"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 97,
+   "name": "Marine & Safran",
+   "colors": [
+    "#F6E9CE",
+    "#172F5D",
+    "#F0B52D",
+    "#C97E63",
+    "#2D2931"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 98,
+   "name": "Vert Bouteille & Corail",
+   "colors": [
+    "#F6E8E0",
+    "#124D3E",
+    "#F18A79",
+    "#E4C67A",
+    "#2E3730"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 99,
+   "name": "Bordeaux & Bleu Ciel",
+   "colors": [
+    "#F4E8E1",
+    "#6C273F",
+    "#A6CFEA",
+    "#D6AA7E",
+    "#282A34"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 100,
+   "name": "Ocre & Lilas",
+   "colors": [
+    "#F8F0DF",
+    "#C68D2C",
+    "#C4B0E5",
+    "#574A62",
+    "#E5C9AB"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 101,
+   "name": "Fraise & Menthe",
+   "colors": [
+    "#F8F1E7",
+    "#D53E68",
+    "#A8E0C2",
+    "#F3B3A7",
+    "#2E534B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 102,
+   "name": "Indigo & Rose Saumon",
+   "colors": [
+    "#F9EBE2",
+    "#303A90",
+    "#EEA49D",
+    "#D6C68D",
+    "#292C3E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 103,
+   "name": "Carmin & Sable Bleu",
+   "colors": [
+    "#F4EBD9",
+    "#B62C42",
+    "#A9B6C6",
+    "#DBB68A",
+    "#433A40"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 104,
+   "name": "Café & Bleu Électrique",
+   "colors": [
+    "#F7EDE0",
+    "#5C382E",
+    "#2662FF",
+    "#E4AD7F",
+    "#24252F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 105,
+   "name": "Citron & Rose Thé",
+   "colors": [
+    "#F8F2E6",
+    "#E9D542",
+    "#D89CA9",
+    "#776A4A",
+    "#3D3842"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 106,
+   "name": "Orange Fluo & Lavande",
+   "colors": [
+    "#F5EDEB",
+    "#FF6D2E",
+    "#B7A2EA",
+    "#5E4279",
+    "#D8C7AD"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 107,
+   "name": "Sauge & Grenat",
+   "colors": [
+    "#F1EEE3",
+    "#9FAF96",
+    "#7A263B",
+    "#D8B69B",
+    "#3B4236"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 108,
+   "name": "Bleu Ardoise & Pêche",
+   "colors": [
+    "#F9EFE8",
+    "#4C6685",
+    "#F2B19B",
+    "#C8D5D1",
+    "#283642"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 109,
+   "name": "Fuchsia & Bleu Nuit",
+   "colors": [
+    "#F8EBF2",
+    "#DF268F",
+    "#1A274B",
+    "#E4C17E",
+    "#342A42"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 110,
+   "name": "Émeraude & Orange",
+   "colors": [
+    "#F5E9DC",
+    "#047B63",
+    "#ED803D",
+    "#C8B7D9",
+    "#283C36"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 111,
+   "name": "Iris & Terracotta",
+   "colors": [
+    "#F6ECE6",
+    "#7C67C3",
+    "#C56B4D",
+    "#D4BC96",
+    "#343048"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 112,
+   "name": "Rouge Vermillon & Gris",
+   "colors": [
+    "#F5F1EA",
+    "#E43E2B",
+    "#A6A9B0",
+    "#5A3335",
+    "#27292E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 113,
+   "name": "Bleu Piscine & Cerise",
+   "colors": [
+    "#F8EFE6",
+    "#49BFD1",
+    "#A92A4A",
+    "#E9BCA8",
+    "#264A5A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 114,
+   "name": "Lime & Noir Encre",
+   "colors": [
+    "#F3F1DF",
+    "#C7ED43",
+    "#232831",
+    "#D8B7D0",
+    "#6C7363"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 115,
+   "name": "Violet Profond & Miel",
+   "colors": [
+    "#F8EAD9",
+    "#4D2C72",
+    "#DBA73D",
+    "#C8ACD2",
+    "#302B36"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 116,
+   "name": "Terre de Sienne & Aqua",
+   "colors": [
+    "#F6ECE0",
+    "#AD5B3D",
+    "#83D7CE",
+    "#E2C8A2",
+    "#2D4647"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 117,
+   "name": "Poudre & Kaki",
+   "colors": [
+    "#F8EDE8",
+    "#E5A9BC",
+    "#67724B",
+    "#E6CE7D",
+    "#3B3B32"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 118,
+   "name": "Cobalt & Mandarine",
+   "colors": [
+    "#FAEEE2",
+    "#1E46D8",
+    "#F38B30",
+    "#D4B3C6",
+    "#2C2B40"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 119,
+   "name": "Orchidée & Chocolat",
+   "colors": [
+    "#F7EDE6",
+    "#CB85D4",
+    "#4E3028",
+    "#D3B184",
+    "#302A32"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 120,
+   "name": "Vert Sapin & Champagne",
+   "colors": [
+    "#F7F1E4",
+    "#20513E",
+    "#D9C18A",
+    "#D8A4A1",
+    "#2B3631"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 121,
+   "name": "Framboise & Jaune Paille",
+   "colors": [
+    "#FFF0D6",
+    "#B72B68",
+    "#E6D074",
+    "#D7A2C5",
+    "#382D3A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 122,
+   "name": "Bleu Minéral & Rouille",
+   "colors": [
+    "#F6F0E6",
+    "#628BA3",
+    "#B85D3B",
+    "#DCC5AC",
+    "#2B3D47"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 123,
+   "name": "Corail & Pistache",
+   "colors": [
+    "#F7F1DF",
+    "#EE796F",
+    "#B7C97C",
+    "#D9A4BC",
+    "#36453A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 124,
+   "name": "Mauve & Rouge Passion",
+   "colors": [
+    "#F8E9EA",
+    "#A68AB9",
+    "#C52C48",
+    "#E7B88A",
+    "#342C3B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 125,
+   "name": "Jaune Mimosa & Indigo",
+   "colors": [
+    "#F8F1DC",
+    "#E6B62B",
+    "#38348C",
+    "#D6B3C7",
+    "#28283B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 126,
+   "name": "Klein & Bordeaux Velours",
+   "colors": [
+    "#F6EDE7",
+    "#1746E8",
+    "#662A45",
+    "#C9B79A",
+    "#27253D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 127,
+   "name": "Rose Dragée & Bronze",
+   "colors": [
+    "#FBF0EA",
+    "#E8B6CE",
+    "#A86A39",
+    "#7B596A",
+    "#352F33"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 128,
+   "name": "Vert Acide & Aubergine",
+   "colors": [
+    "#F2F1E0",
+    "#BFE63B",
+    "#502E58",
+    "#D3A3B2",
+    "#2C3130"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 129,
+   "name": "Orange Brûlé & Bleu Glacier",
+   "colors": [
+    "#F8EDE0",
+    "#C66339",
+    "#B7DCE9",
+    "#E5C37F",
+    "#2D4150"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 130,
+   "name": "Pivoine & Vert Émeraude",
+   "colors": [
+    "#F8ECE9",
+    "#D65B85",
+    "#18785E",
+    "#E9C58A",
+    "#33332F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 131,
+   "name": "Cassis & Citron",
+   "colors": [
+    "#F5EFE0",
+    "#5B2C58",
+    "#E8E153",
+    "#C4B4D8",
+    "#33313A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 132,
+   "name": "Bleu Pervenche & Caramel",
+   "colors": [
+    "#F6EBDD",
+    "#718EDB",
+    "#B77D4B",
+    "#D6B8C5",
+    "#323A52"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 133,
+   "name": "Grenadine & Turquoise",
+   "colors": [
+    "#F9EDE2",
+    "#E34D55",
+    "#2BA5A9",
+    "#E7C88A",
+    "#2F3840"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 134,
+   "name": "Olive & Bleu Lavande",
+   "colors": [
+    "#F6F0E5",
+    "#717C46",
+    "#A9A7E2",
+    "#D4B58D",
+    "#343A36"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 135,
+   "name": "Papaye & Bleu Orage",
+   "colors": [
+    "#FAEEDD",
+    "#EF9C55",
+    "#3F5C7B",
+    "#D4B4B8",
+    "#29333D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 136,
+   "name": "Prune & Rose Néon",
+   "colors": [
+    "#F7E9EF",
+    "#532D55",
+    "#F04AAB",
+    "#C7BB87",
+    "#292831"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 137,
+   "name": "Rose électrique",
+   "colors": [
+    "#FFF2F6",
+    "#FF2D9B",
+    "#FFB6D9",
+    "#4A2AFF",
+    "#2C1737"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 138,
+   "name": "Rose bonbon",
+   "colors": [
+    "#FFF5FA",
+    "#FF75C8",
+    "#FFD0EA",
+    "#F24773",
+    "#54213C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 139,
+   "name": "Rose poudré & olive",
+   "colors": [
+    "#F9EEE9",
+    "#C88C9E",
+    "#E8C5CE",
+    "#667B3B",
+    "#343328"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 140,
+   "name": "Fuchsia & cobalt",
+   "colors": [
+    "#F9EDE9",
+    "#F500A4",
+    "#FF9EDE",
+    "#2349FF",
+    "#251C50"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 141,
+   "name": "Rose quartz & rouille",
+   "colors": [
+    "#F7F1EA",
+    "#E8B5C9",
+    "#F8DBE7",
+    "#A94F30",
+    "#4A3333"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 142,
+   "name": "Rose fluo & citron",
+   "colors": [
+    "#F9F7E8",
+    "#FF00A8",
+    "#FFB7E1",
+    "#E4FF30",
+    "#33213D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 143,
+   "name": "Rose dragée & prune",
+   "colors": [
+    "#FBF4F6",
+    "#DFA6D6",
+    "#F4D8E7",
+    "#59264B",
+    "#362538"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 144,
+   "name": "Rose saumon & menthe",
+   "colors": [
+    "#FFF0E8",
+    "#FA8F9D",
+    "#FFC5B7",
+    "#65C9A7",
+    "#314D45"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 145,
+   "name": "Rouge couture",
+   "colors": [
+    "#F7EEE7",
+    "#B80F31",
+    "#E9A3A9",
+    "#D9B676",
+    "#2D1D29"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 146,
+   "name": "Rouge tomate & bleu ciel",
+   "colors": [
+    "#FFF4EA",
+    "#F23A24",
+    "#FFB39E",
+    "#7BC6EF",
+    "#203E59"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 147,
+   "name": "Cerise pop",
+   "colors": [
+    "#FFF2EE",
+    "#FF1744",
+    "#FF8E9D",
+    "#F7D547",
+    "#322336"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 148,
+   "name": "Rouge vermillon & lilas",
+   "colors": [
+    "#F8F1F5",
+    "#E73726",
+    "#FFB49F",
+    "#B8A0FF",
+    "#332A53"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 149,
+   "name": "Grenat & glacier",
+   "colors": [
+    "#F2F5F4",
+    "#7C193B",
+    "#CC7C88",
+    "#A9DBE5",
+    "#292B43"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 150,
+   "name": "Coquelicot & sable",
+   "colors": [
+    "#F6EEDC",
+    "#ED2D2D",
+    "#F7A2A0",
+    "#B8A77E",
+    "#3B302A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 151,
+   "name": "Rouge néon & noir",
+   "colors": [
+    "#F6F4F0",
+    "#FF2033",
+    "#FF8990",
+    "#C6FF33",
+    "#191919"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 152,
+   "name": "Rouge framboise & marine",
+   "colors": [
+    "#F9F0EC",
+    "#C31D55",
+    "#ECA5B8",
+    "#1D315D",
+    "#242538"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 153,
+   "name": "Orange vitaminé",
+   "colors": [
+    "#FFF4E8",
+    "#FF6A00",
+    "#FFB56B",
+    "#E3E900",
+    "#422B30"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 154,
+   "name": "Mandarine & cobalt",
+   "colors": [
+    "#FFF1E5",
+    "#FF831E",
+    "#FFC18A",
+    "#214BEE",
+    "#262C4B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 155,
+   "name": "Corail & turquoise",
+   "colors": [
+    "#F9F0E8",
+    "#FF6F58",
+    "#FFB2A3",
+    "#11BDB6",
+    "#2D3C3E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 156,
+   "name": "Abricot pastel",
+   "colors": [
+    "#FFF8F2",
+    "#F7B78C",
+    "#FFE0C9",
+    "#AABF8D",
+    "#65483D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 157,
+   "name": "Orange fluo & aubergine",
+   "colors": [
+    "#F8F1E9",
+    "#FF5A00",
+    "#FFC269",
+    "#5B215B",
+    "#2B1E38"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 158,
+   "name": "Paprika & rose dragée",
+   "colors": [
+    "#FAF1EA",
+    "#C65B32",
+    "#E7A47E",
+    "#F1C1D7",
+    "#3E2934"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 159,
+   "name": "Cuivre & glacier",
+   "colors": [
+    "#EDF4F4",
+    "#C7743D",
+    "#E7B58C",
+    "#8EC7D4",
+    "#273F47"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 160,
+   "name": "Mandarine & pistache",
+   "colors": [
+    "#FFF3E5",
+    "#F68A24",
+    "#F8BE80",
+    "#B6D47C",
+    "#394D34"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 161,
+   "name": "Jaune citron",
+   "colors": [
+    "#FFFDF0",
+    "#F9E000",
+    "#FFF29B",
+    "#5C65E6",
+    "#2B2944"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 162,
+   "name": "Beurre & pétrole",
+   "colors": [
+    "#FCF7E9",
+    "#F6D76B",
+    "#FFF0B6",
+    "#0E6674",
+    "#23333B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 163,
+   "name": "Jaune fluo & violet",
+   "colors": [
+    "#F8F5EA",
+    "#EFFF00",
+    "#F6FF7B",
+    "#6B35D7",
+    "#26243D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 164,
+   "name": "Mimosa & chocolat",
+   "colors": [
+    "#FBF5E6",
+    "#E8B62C",
+    "#F9DB82",
+    "#583B2E",
+    "#342821"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 165,
+   "name": "Safran & rose",
+   "colors": [
+    "#FCF3E9",
+    "#DB9B10",
+    "#F3D076",
+    "#D983A9",
+    "#4A3040"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 166,
+   "name": "Citron vert & marine",
+   "colors": [
+    "#F6F7E9",
+    "#D9F227",
+    "#F1FFA3",
+    "#1E355C",
+    "#252D35"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 167,
+   "name": "Jaune soleil & cyan",
+   "colors": [
+    "#FFF9E9",
+    "#FFCE00",
+    "#FFE48A",
+    "#00A9E8",
+    "#203747"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 168,
+   "name": "Vanille & bordeaux",
+   "colors": [
+    "#FBF6E8",
+    "#EEDC9C",
+    "#FFF0C2",
+    "#702840",
+    "#382733"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 169,
+   "name": "Vert émeraude",
+   "colors": [
+    "#F2F6EE",
+    "#008C68",
+    "#8DD4B0",
+    "#D2B36B",
+    "#1B3E34"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 170,
+   "name": "Pistache & prune",
+   "colors": [
+    "#F8F5E7",
+    "#B9D56D",
+    "#E0E9AD",
+    "#5C284E",
+    "#302A37"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 171,
+   "name": "Vert acide & cobalt",
+   "colors": [
+    "#F5F7E8",
+    "#B7FF00",
+    "#DDFE7B",
+    "#2846F3",
+    "#252D49"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 172,
+   "name": "Sauge & terracotta",
+   "colors": [
+    "#F8F2E9",
+    "#91A68D",
+    "#CED9B8",
+    "#C76746",
+    "#3B4438"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 173,
+   "name": "Menthe & rouge",
+   "colors": [
+    "#EFFAF3",
+    "#64D9B3",
+    "#B8F1D6",
+    "#E54444",
+    "#24473E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 174,
+   "name": "Forêt & pêche",
+   "colors": [
+    "#F9F0E6",
+    "#214C3E",
+    "#7A9B77",
+    "#F2AA8A",
+    "#302E29"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 175,
+   "name": "Lime & aubergine",
+   "colors": [
+    "#F7F6E8",
+    "#C5E628",
+    "#EBF7A3",
+    "#5D2857",
+    "#34283A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 176,
+   "name": "Vert sapin & lavande",
+   "colors": [
+    "#F6F1F5",
+    "#185F48",
+    "#80AE90",
+    "#C7B2F2",
+    "#27352F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 177,
+   "name": "Bleu Klein",
+   "colors": [
+    "#F4F5F8",
+    "#1747FF",
+    "#8BA8FF",
+    "#F7AE4B",
+    "#1E2755"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 178,
+   "name": "Bleu ciel & tomate",
+   "colors": [
+    "#F2F9FE",
+    "#7BC8F4",
+    "#C8EBFF",
+    "#F34335",
+    "#2C3C56"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 179,
+   "name": "Marine & citron",
+   "colors": [
+    "#F5F5EC",
+    "#1C2D62",
+    "#7385B7",
+    "#E7EB37",
+    "#22243B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 180,
+   "name": "Cyan électrique",
+   "colors": [
+    "#F1FCFD",
+    "#00D7FF",
+    "#8AEBF9",
+    "#FD45A8",
+    "#23374A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 181,
+   "name": "Pétrole & corail",
+   "colors": [
+    "#F5F0E8",
+    "#126C79",
+    "#81BCC0",
+    "#F47B66",
+    "#253A40"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 182,
+   "name": "Bleu glacier & bordeaux",
+   "colors": [
+    "#F3F8FA",
+    "#B5D9ED",
+    "#E2F0F7",
+    "#7A2844",
+    "#31344B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 183,
+   "name": "Indigo & melon",
+   "colors": [
+    "#F8F1E8",
+    "#4C42C8",
+    "#A9A3EA",
+    "#F5B67B",
+    "#2C294E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 184,
+   "name": "Bleu nuit & rose fluo",
+   "colors": [
+    "#F6F0F5",
+    "#192C55",
+    "#7A8FC1",
+    "#F800A7",
+    "#27243B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 185,
+   "name": "Violet pop",
+   "colors": [
+    "#F8F1FF",
+    "#8B39F9",
+    "#C69CFF",
+    "#E7F239",
+    "#33234C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 186,
+   "name": "Lilas & orange",
+   "colors": [
+    "#F9F2F6",
+    "#B69AEE",
+    "#E0CEF8",
+    "#EF713A",
+    "#443148"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 187,
+   "name": "Aubergine & citron",
+   "colors": [
+    "#F7F5E9",
+    "#572552",
+    "#A76A9B",
+    "#E3EE4C",
+    "#32273C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 188,
+   "name": "Lavande pastel",
+   "colors": [
+    "#FCF8FF",
+    "#C9B5F2",
+    "#E8DCF8",
+    "#A5C5D8",
+    "#514A71"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 189,
+   "name": "Prune & pistache",
+   "colors": [
+    "#F6F2E7",
+    "#6B2E64",
+    "#BD89B5",
+    "#B6D67E",
+    "#302A37"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 190,
+   "name": "Ultra violet & cyan",
+   "colors": [
+    "#F4F3FA",
+    "#6C25FF",
+    "#B49DFF",
+    "#00D5E6",
+    "#292344"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 191,
+   "name": "Mauve & safran",
+   "colors": [
+    "#F8F0ED",
+    "#B184B1",
+    "#E0BEDD",
+    "#E3B032",
+    "#423043"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 192,
+   "name": "Violet profond & rose",
+   "colors": [
+    "#F7EFF6",
+    "#452078",
+    "#9A70CE",
+    "#FA66C7",
+    "#29233D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 193,
+   "name": "Nude argile",
+   "colors": [
+    "#F7F0E9",
+    "#D6B59D",
+    "#E8D4C4",
+    "#9A6D59",
+    "#4A3C36"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 194,
+   "name": "Café & lilas",
+   "colors": [
+    "#F6EFE9",
+    "#8C624F",
+    "#D3B3A4",
+    "#C7B0E9",
+    "#3B3037"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 195,
+   "name": "Ivoire & bronze",
+   "colors": [
+    "#FAF7F0",
+    "#C4A06E",
+    "#E4D5BA",
+    "#77604B",
+    "#2E2A28"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 196,
+   "name": "Taupe & cobalt",
+   "colors": [
+    "#F4F0EA",
+    "#9D8D83",
+    "#D5C9C0",
+    "#2450F5",
+    "#302F37"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 197,
+   "name": "Sable & pistache",
+   "colors": [
+    "#F7F3E8",
+    "#C6B397",
+    "#E8DBBC",
+    "#A3BC6A",
+    "#403A32"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 198,
+   "name": "Chocolat & rose vif",
+   "colors": [
+    "#F6EBE4",
+    "#6A3E2E",
+    "#C49C86",
+    "#EE2D91",
+    "#2F262B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 199,
+   "name": "Grège & rouille",
+   "colors": [
+    "#F6F4F0",
+    "#B9AEA4",
+    "#E3DCD4",
+    "#B85A37",
+    "#383530"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 200,
+   "name": "Noir & crème",
+   "colors": [
+    "#F7F2E7",
+    "#232323",
+    "#9D968A",
+    "#D6B980",
+    "#111111"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 201,
+   "name": "Fluo festival",
+   "colors": [
+    "#F9F8E9",
+    "#FF00C8",
+    "#C7FF00",
+    "#00D5FF",
+    "#24213C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 202,
+   "name": "Pop art primaire",
+   "colors": [
+    "#F9F6EA",
+    "#FF3333",
+    "#FFDB00",
+    "#1759FF",
+    "#21212C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 203,
+   "name": "Acid candy",
+   "colors": [
+    "#FFF7FA",
+    "#FC4AA8",
+    "#D9FF1C",
+    "#9D60FF",
+    "#2D2442"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 204,
+   "name": "Tangerine disco",
+   "colors": [
+    "#F9F4EB",
+    "#FF5500",
+    "#FFCC00",
+    "#00B5C8",
+    "#2C2341"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 205,
+   "name": "Electric sunset",
+   "colors": [
+    "#FFF2F2",
+    "#FF286F",
+    "#FF8A00",
+    "#6B37E9",
+    "#2D1D3E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 206,
+   "name": "Neo tropic",
+   "colors": [
+    "#F5FFF8",
+    "#00CE82",
+    "#FFEB00",
+    "#FF55A9",
+    "#213B3D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 207,
+   "name": "Cobalt rave",
+   "colors": [
+    "#F2F4FF",
+    "#2D36FF",
+    "#C0FF00",
+    "#FF9B00",
+    "#1D214B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 208,
+   "name": "Bubblegum cyber",
+   "colors": [
+    "#FFF3FD",
+    "#FF54D9",
+    "#63E7FF",
+    "#FFEA3D",
+    "#34264D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 209,
+   "name": "Pastel sorbet",
+   "colors": [
+    "#FFF8F0",
+    "#F7BDD4",
+    "#D6D1FF",
+    "#BDE7C7",
+    "#554A61"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 210,
+   "name": "Pastel citron-lilas",
+   "colors": [
+    "#FFFCF0",
+    "#F6E99D",
+    "#D9C5F4",
+    "#C2E5EA",
+    "#514C64"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 211,
+   "name": "Pastel corail-menthe",
+   "colors": [
+    "#FFF7F0",
+    "#F6B6A4",
+    "#D9EED8",
+    "#C5D4F6",
+    "#5B5052"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 212,
+   "name": "Pastel rose-pêche",
+   "colors": [
+    "#FFF8F4",
+    "#F3CAD9",
+    "#F7D4B5",
+    "#DFE8C1",
+    "#69535E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 213,
+   "name": "Pastel bleu-beurre",
+   "colors": [
+    "#FBFAEF",
+    "#B9DDF2",
+    "#F4E2A4",
+    "#EAC4D4",
+    "#4B5968"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 214,
+   "name": "Pastel mauve-sauge",
+   "colors": [
+    "#FAF6F6",
+    "#D8C1E4",
+    "#BFCDB8",
+    "#E8D8C5",
+    "#585160"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 215,
+   "name": "Pastel abricot-lilas",
+   "colors": [
+    "#FFF8F2",
+    "#F7D0B3",
+    "#CBB9ED",
+    "#E9E9B8",
+    "#675464"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 216,
+   "name": "Pastel vert-rose",
+   "colors": [
+    "#F9FBF3",
+    "#C8E4C2",
+    "#F0C6D9",
+    "#D9D5F2",
+    "#536256"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 217,
+   "name": "Bijou rubis",
+   "colors": [
+    "#F6EBE6",
+    "#8D123B",
+    "#CA5075",
+    "#C8A66B",
+    "#281E2D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 218,
+   "name": "Bijou saphir",
+   "colors": [
+    "#F4F1E9",
+    "#123B8E",
+    "#4C78D1",
+    "#D8B56A",
+    "#252A3C"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 219,
+   "name": "Bijou jade",
+   "colors": [
+    "#F4F2E7",
+    "#126D5B",
+    "#59A38B",
+    "#C6A46C",
+    "#26362F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 220,
+   "name": "Bijou améthyste",
+   "colors": [
+    "#F7F0F5",
+    "#54216F",
+    "#A47BBE",
+    "#D4B06E",
+    "#2D2335"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 221,
+   "name": "Bijou grenat & miel",
+   "colors": [
+    "#F9F0E8",
+    "#6E1935",
+    "#B66072",
+    "#DCA84A",
+    "#33242D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 222,
+   "name": "Bijou émeraude & rose",
+   "colors": [
+    "#F7EDEA",
+    "#087D61",
+    "#8DC4A3",
+    "#DCA0B2",
+    "#28342D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 223,
+   "name": "Bijou cobalt & or",
+   "colors": [
+    "#F5F0E6",
+    "#1849A5",
+    "#8FAAD8",
+    "#D6A94C",
+    "#252B43"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 224,
+   "name": "Bijou prune & glacier",
+   "colors": [
+    "#F2F5F7",
+    "#552E59",
+    "#A77FA9",
+    "#A8D5E6",
+    "#2C2939"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 225,
+   "name": "Terre cuite & bleu",
+   "colors": [
+    "#F8EFE7",
+    "#B65B3C",
+    "#E7A482",
+    "#6C9DAD",
+    "#3D3530"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 226,
+   "name": "Ocre & olive",
+   "colors": [
+    "#F6F1E5",
+    "#C58D32",
+    "#E8C786",
+    "#6D7A45",
+    "#3D392D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 227,
+   "name": "Argile & lilas",
+   "colors": [
+    "#F7EEE9",
+    "#B77B69",
+    "#E0B8A8",
+    "#C5A6D8",
+    "#4A3544"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 228,
+   "name": "Terracotta & turquoise",
+   "colors": [
+    "#F8EFE4",
+    "#C56A46",
+    "#E8AD8C",
+    "#23AFA8",
+    "#3B3A34"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 229,
+   "name": "Cognac & bleu glacier",
+   "colors": [
+    "#F5F1EA",
+    "#A85C30",
+    "#E1A56C",
+    "#B5DDE8",
+    "#303B3D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 230,
+   "name": "Rouille & citron",
+   "colors": [
+    "#F7F0E7",
+    "#AD492B",
+    "#E1A07B",
+    "#E4E75B",
+    "#3B2F2B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 231,
+   "name": "Paprika & sauge",
+   "colors": [
+    "#F6EFE7",
+    "#CE5632",
+    "#F1A68A",
+    "#A5B996",
+    "#3D3C31"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 232,
+   "name": "Brique & rose",
+   "colors": [
+    "#F8EFEA",
+    "#A94C45",
+    "#DB8E85",
+    "#E8B4CA",
+    "#3F2E36"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 233,
+   "name": "Marine & champagne",
+   "colors": [
+    "#F7F1E6",
+    "#1B3155",
+    "#7286A6",
+    "#D9B46C",
+    "#252A36"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 234,
+   "name": "Charbon & cuivre",
+   "colors": [
+    "#F3F0EB",
+    "#303033",
+    "#8C8380",
+    "#C27C51",
+    "#222125"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 235,
+   "name": "Ivoire & forêt",
+   "colors": [
+    "#F9F7F0",
+    "#1F5543",
+    "#8BAE9B",
+    "#CDBF9B",
+    "#28362F"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 236,
+   "name": "Bordeaux & bleu ciel",
+   "colors": [
+    "#F5F0EB",
+    "#702B43",
+    "#C88A9B",
+    "#A5D4EB",
+    "#2C2D3E"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 237,
+   "name": "Moka & safran",
+   "colors": [
+    "#F8F1E5",
+    "#57392D",
+    "#A57E67",
+    "#D9A11B",
+    "#302B2B"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 238,
+   "name": "Graphite & lavande",
+   "colors": [
+    "#F5F3F8",
+    "#383943",
+    "#9A99AA",
+    "#C6B1EB",
+    "#262632"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 239,
+   "name": "Noir & lime",
+   "colors": [
+    "#F5F6ED",
+    "#252629",
+    "#7B7E74",
+    "#D6EF42",
+    "#191B1D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 240,
+   "name": "Bordeaux & vanille",
+   "colors": [
+    "#FAF4E7",
+    "#6D203B",
+    "#B86B80",
+    "#E8D39B",
+    "#31242D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 241,
+   "name": "Coucher de soleil",
+   "colors": [
+    "#FFF3E8",
+    "#F2573F",
+    "#F6A046",
+    "#E94C91",
+    "#392944"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 242,
+   "name": "Lagune",
+   "colors": [
+    "#EFFBF9",
+    "#13B9B6",
+    "#76E1C7",
+    "#D8F59B",
+    "#23464A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 243,
+   "name": "Fleurs sauvages",
+   "colors": [
+    "#FBF2ED",
+    "#F06A88",
+    "#D9A7D9",
+    "#E2C955",
+    "#403448"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 244,
+   "name": "Jardin d’agrumes",
+   "colors": [
+    "#FFF9EA",
+    "#F5B92D",
+    "#F47B34",
+    "#A6C74A",
+    "#344531"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 245,
+   "name": "Lagon & papaye",
+   "colors": [
+    "#F0FBF7",
+    "#17B9B2",
+    "#86DFD2",
+    "#F88E4D",
+    "#28454A"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 246,
+   "name": "Orchidée tropicale",
+   "colors": [
+    "#FBF1F7",
+    "#D448B3",
+    "#EEA8D7",
+    "#64A65A",
+    "#3C3446"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 247,
+   "name": "Pivoine & pistache",
+   "colors": [
+    "#FCF2F1",
+    "#E87F99",
+    "#F5BBC9",
+    "#A5C468",
+    "#3A3F36"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  },
+  {
+   "id": 248,
+   "name": "Minuit tropical",
+   "colors": [
+    "#F4F0E9",
+    "#173B50",
+    "#3B8392",
+    "#F0A443",
+    "#25323D"
+   ],
+   "description": "",
+   "published": true,
+   "autoFamilies": true,
+   "families": [],
+   "autoIntensities": true,
+   "intensities": [],
+   "mockup": {
+    "variant": "auto",
+    "label": "",
+    "title": ""
+   },
+   "images": []
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>L’Art des Associations — Bibliothèque de couleurs</title>
+<meta name="description" content="L’Art des Associations : 248 harmonies de couleurs, leurs codes HEX et leur mise en scène sur des concepts de sites vitrines. Choisissez les couleurs de votre futur site internet.">
+<meta name="theme-color" content="#f7f5f0">
+<meta name="application-name" content="L’Art des Associations">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Associations">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:type" content="website">
+<meta property="og:title" content="L’Art des Associations — Bibliothèque de couleurs">
+<meta property="og:description" content="248 harmonies de couleurs mises en scène sur de véritables concepts de sites vitrines.">
+<meta property="og:image" content="icons/og-image.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+<link rel="preload" href="data/catalogue.json" as="fetch" crossorigin>
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<div class="preview-banner" id="previewBanner" hidden>APERÇU DU BROUILLON · non publié · <a href="admin/">Retour à l’administration</a></div>
+<header>
+  <a class="brand" href="#/" id="brand" aria-label="Accueil"><span id="brandText">L’ART DES ASSOCIATIONS</span><small id="brandSub">THE COLOR ATELIER · COLLECTION ÉTENDUE</small></a>
+  <div class="nav">
+    <button class="btn install-btn" id="installBtn" data-action="install" hidden>Installer l’app</button>
+    <button class="btn" data-action="home">Couleurs</button>
+    <button class="btn dark" data-action="favs" aria-label="Mes favoris">♡ <span id="favCount">0</span></button>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <section id="home" class="home">
+    <div class="hero">
+      <div>
+        <div class="eyebrow" id="heroEyebrow"></div>
+        <h1 id="heroTitle"></h1>
+        <p id="heroText"></p>
+        <div class="eyebrow" id="heroCta"></div>
+      </div>
+      <div class="hero-art" id="heroArt">
+        <div class="slab"></div><div class="editorial-orbit orbit-one"></div><div class="editorial-orbit orbit-two"></div><div class="editorial-arch"></div>
+        <div class="editorial-label"><span id="heroArtLabel"></span> <span id="heroArtLabelSub"></span></div>
+        <div class="arttext" id="heroArtText"></div>
+        <div class="editorial-index" id="heroArtIndex"></div>
+      </div>
+    </div>
+
+    <div id="familiesBlock">
+      <div class="section-head"><h2 id="familiesTitle"></h2><span class="muted" id="familiesCount"></span></div>
+      <div class="families" id="families"></div>
+      <p class="hint" id="familiesHint"></p>
+    </div>
+
+    <div class="all-gallery" id="allGallery">
+      <div class="all-intro">
+        <div>
+          <div class="eyebrow" id="galleryEyebrow"></div>
+          <h2 id="galleryTitle"></h2>
+          <p class="muted" id="galleryText"></p>
+        </div>
+        <span class="all-counter" id="allCount" aria-live="polite"></span>
+      </div>
+      <div class="all-tools">
+        <select class="search" id="intensityAll" aria-label="Intensité"></select>
+        <input class="search" id="allSearch" type="search" placeholder="Rechercher une couleur, un nom, un numéro…" aria-label="Rechercher dans toutes les palettes">
+        <button class="btn" data-action="clear-all">Tout afficher ↗</button>
+      </div>
+      <div class="grid" id="allTiles"></div>
+      <p class="gallery-note" id="galleryNote"></p>
+    </div>
+
+    <div class="contact-block" id="contactBlock" hidden></div>
+  </section>
+
+  <section id="panel" class="panel">
+    <button class="btn back" data-action="home">← Toutes les couleurs</button>
+    <div class="section-head">
+      <div><div class="eyebrow" id="panelEyebrow">Collection / Explorer</div><h2 id="panelTitle"></h2><p class="muted" id="panelDesc"></p></div>
+      <span class="muted" id="panelCount" aria-live="polite"></span>
+    </div>
+    <div class="subfams" id="subfams"></div>
+    <div class="toolbar">
+      <span class="muted">Sélectionnez une proposition pour découvrir son site vitrine.</span>
+      <div class="toolbar-tools">
+        <select class="search" id="intensityFam" aria-label="Intensité"></select>
+        <input class="search" id="search" type="search" placeholder="Rechercher une palette…" aria-label="Rechercher une palette">
+      </div>
+    </div>
+    <div class="grid" id="tiles"></div>
+  </section>
+
+  <section id="detail" class="detail">
+    <div class="detail-nav">
+      <button class="btn back" data-action="back">← Retour aux palettes</button>
+      <div class="detail-steps"><button class="btn" data-action="prev" aria-label="Palette précédente">←</button><button class="btn" data-action="next" aria-label="Palette suivante">→</button></div>
+    </div>
+    <div class="detail-title">
+      <div><div class="eyebrow" id="detailNumber"></div><h2 id="detailName"></h2><p class="muted" id="detailDesc"></p><div class="detail-tags" id="detailTags"></div></div>
+      <div class="detail-actions"><button class="btn" data-action="share">Partager ↗</button><button class="btn dark" id="favBtn" data-action="fav">♡ Enregistrer</button></div>
+    </div>
+    <div class="detail-layout">
+      <div>
+        <div class="eyebrow" style="margin-bottom:15px">Les nuances · Cliquez pour copier</div>
+        <div class="color-list" id="colorList"></div>
+        <button class="btn copy-all" data-action="copy-all">Copier tous les codes</button>
+        <p class="hint">Les codes HEX peuvent être transmis directement à votre designer.</p>
+      </div>
+      <div>
+        <div class="device-switch" role="group" aria-label="Type d’écran">
+          <button class="btn dark" data-action="device" data-device="desktop" aria-pressed="true">Ordinateur</button>
+          <button class="btn" data-action="device" data-device="mobile" aria-pressed="false">Mobile</button>
+        </div>
+        <div class="browser" id="browserFrame">
+          <div class="chrome"><i class="dot"></i><i class="dot" style="background:#d7c784"></i><i class="dot" style="background:#a0c2a3"></i><span>concept-site.fr / aperçu fictif</span></div>
+          <div id="site" class="site"></div>
+          <iframe id="siteMobile" class="site-mobile" title="Aperçu mobile du concept de site" hidden></iframe>
+        </div>
+        <p class="hint" id="mockupNote"></p>
+        <div class="situations" id="situations" hidden>
+          <div class="eyebrow">Mises en situation</div>
+          <div class="situations-grid" id="situationsGrid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap" id="footerText"></div></footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<div class="sheet" id="installSheet" role="dialog" aria-modal="true" aria-labelledby="installTitle" hidden>
+  <div class="sheet-card">
+    <button class="sheet-close" data-action="close-install" aria-label="Fermer">×</button>
+    <img class="sheet-icon" src="icons/icon-192.png" alt="" width="84" height="84">
+    <div class="eyebrow">Application · Gratuite · Sans inscription</div>
+    <h2 id="installTitle">Installer <i>L’Art des Associations</i></h2>
+    <p class="sheet-lead">Retrouvez le catalogue depuis son icône, en plein écran, comme une application — même sans connexion pour les palettes déjà consultées.</p>
+    <button class="btn dark sheet-main" id="installNow" data-action="install-now" hidden>Installer L’Art des Associations</button>
+    <div id="installSteps" class="install-steps"></div>
+    <details class="install-other"><summary>Instructions pour un autre appareil</summary><div id="installAll"></div></details>
+    <button class="btn sheet-later" data-action="close-install">Continuer dans le navigateur</button>
+  </div>
+</div>
+
+<script src="assets/core.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
