@@ -208,8 +208,8 @@
       '<button class="btn" data-act="new-family">＋ Nouvelle collection</button>' +
       '<button class="btn" data-view-go="media">Importer des images</button>' +
       '<button class="btn" data-view-go="appearance">Modifier les textes</button>' +
-      '<button class="btn" data-act="preview">Aperçu du catalogue ↗</button>' +
-      '<button class="btn" data-act="open-site">Voir le site en ligne ↗</button>' +
+      '<button class="btn" data-act="preview">Aperçu du catalogue ↗︎</button>' +
+      '<button class="btn" data-act="open-site">Voir le site en ligne ↗︎</button>' +
       '</div></div>' +
       '<h2 class="section-title">Dernières modifications</h2><div class="card"><ul class="list-plain">' +
       (recent.length ? recent.map(function (r) { return '<li><span>' + esc(r.message) + '</span><span class="small">' + esc(fmtDate(r.date)) + '</span></li>'; }).join('') : '<li class="small">' + (S.recent ? 'Aucune publication pour le moment.' : 'Chargement…') + '</li>') +
@@ -327,7 +327,7 @@
       '<label>Mise en page<select data-ed-mock="variant"><option value="auto"' + (v === 'auto' ? ' selected' : '') + '>Automatique (mise en page ' + (autoV + 1) + ')</option>' + [0, 1, 2, 3, 4, 5].map(function (i) { return '<option value="' + i + '"' + (String(v) === String(i) ? ' selected' : '') + '>Mise en page ' + (i + 1) + ' — ' + esc(m.titles[i]) + '</option>'; }).join('') + '</select></label>' +
       '<div class="two"><label>Nom de marque affiché<input type="text" data-ed-mock="label" value="' + esc(p.mockup.label) + '" placeholder="' + esc(m.labels[v === 'auto' ? autoV : +v]) + '"></label>' +
       '<label>Grand titre<input type="text" data-ed-mock="title" value="' + esc(p.mockup.title) + '" placeholder="' + esc(m.titles[v === 'auto' ? autoV : +v]) + '"></label></div>' +
-      '<p class="small">Laissez vide pour garder les textes par défaut. <button class="btn link" data-ed-act="preview">Voir la simulation complète ↗</button></p></div>' +
+      '<p class="small">Laissez vide pour garder les textes par défaut. <button class="btn link" data-ed-act="preview">Voir la simulation complète ↗︎</button></p></div>' +
       '<div class="fieldset"><h3>Mises en situation (images)</h3><p class="small">Photos ou visuels affichés sous la simulation : vitrine, carte de visite, intérieur…</p><div class="imgs">' +
       p.images.map(function (im, i) {
         return '<div class="irow">' + imgTag(im.src, im.alt) + '<div><input type="text" data-img-cap="' + i + '" value="' + esc(im.caption || '') + '" placeholder="Légende (facultative)"><input type="text" style="margin-top:4px" data-img-alt="' + i + '" value="' + esc(im.alt || '') + '" placeholder="Description pour l’accessibilité"></div>' +
@@ -584,7 +584,7 @@
   function setPath(o, p, v) { var ks = p.split('.'), last = ks.pop(); ks.forEach(function (k) { o = o[k] = o[k] || {}; }); o[last] = v; }
   function viewAppearance() {
     var s = S.cat.site;
-    return '<div class="view-head"><div><div class="eyebrow">Textes, images et couleurs</div><h1>Apparence</h1></div><button class="btn" data-act="preview">Aperçu ↗</button></div>' +
+    return '<div class="view-head"><div><div class="eyebrow">Textes, images et couleurs</div><h1>Apparence</h1></div><button class="btn" data-act="preview">Aperçu ↗︎</button></div>' +
       '<p class="small">Astuces : entourez un mot d’astérisques pour l’écrire en <i>italique</i> (*prend vie.*). Un retour à la ligne crée un saut de ligne. <b>{total}</b> affiche le nombre de palettes publiées, <b>{colors}</b> le nombre de couleurs.</p>' +
       APPEAR.map(function (g) {
         return '<div class="fieldset"><h3>' + esc(g[0]) + '</h3>' + (g[0].indexOf('Couleurs') === 0 ? '<p class="small">Vérifiez la lisibilité dans l’aperçu. <button class="btn link" data-act="theme-reset">Rétablir les couleurs d’origine</button></p>' : '') + '<div class="form-grid">' + g[1].map(function (f) {
@@ -616,11 +616,11 @@
       '<div class="card"><h3 style="margin:0 0 8px;font-size:20px">Modifications en attente</h3>' +
       (items.length ? '<ul class="list-plain diff">' + items.slice(0, 40).join('') + (items.length > 40 ? '<li class="small">… et ' + (items.length - 40) + ' autres</li>' : '') + '</ul>' : '<p class="muted">Aucune modification : le catalogue en ligne est à jour.</p>') +
       '<label>Note de version <span class="small">(facultative, ex. « Ajout de 12 palettes pastel »)</span><input type="text" id="pubNote" maxlength="120"></label>' +
-      '<div class="quick" style="margin-top:14px"><button class="btn" data-act="preview">Prévisualiser ↗</button>' +
+      '<div class="quick" style="margin-top:14px"><button class="btn" data-act="preview">Prévisualiser ↗︎</button>' +
       '<button class="btn dark" data-act="publish"' + (items.length ? '' : ' disabled') + '>Publier maintenant</button>' +
       (S.mode === 'github' ? '<button class="btn" data-act="save-remote-draft">Enregistrer le brouillon en ligne</button>' : '') +
       '<button class="btn danger" data-act="discard"' + (items.length ? '' : ' disabled') + '>Annuler toutes les modifications</button></div>' +
-      '<p class="small">Votre brouillon est enregistré automatiquement sur cet appareil. « Enregistrer le brouillon en ligne » permet de le reprendre depuis un autre appareil (Mac ↔ iPhone) sans rien publier.</p>' +
+      '<p class="small">Votre brouillon est enregistré automatiquement sur cet appareil. « Enregistrer le brouillon en ligne » permet de le reprendre depuis un autre appareil (Mac ↔︎ iPhone) sans rien publier.</p>' +
       (live ? '<div class="live-state' + (live.ok ? '' : ' wait') + '">' + (live.ok ? '✓ Publication en ligne : les visiteurs voient la nouvelle version.' : '⏳ Publication envoyée. Mise en ligne en cours (environ 1 minute)…') + '</div>' : '') +
       '</div>' +
       '<h2 class="section-title">Historique des versions</h2><div class="card"><p class="small" style="margin-top:0">Chaque publication est conservée. « Restaurer » recharge une ancienne version dans le brouillon : vérifiez-la dans l’aperçu, puis publiez.</p><ul class="list-plain">' +

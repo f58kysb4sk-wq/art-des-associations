@@ -2,7 +2,7 @@
    Pour forcer une nouvelle version de l’application après une modification du code,
    changez simplement le numéro ci-dessous (les palettes publiées depuis l’administration
    n’en ont pas besoin : elles sont toujours chargées en priorité depuis le réseau). */
-const VERSION = 'ada-2026-11-23-1';
+const VERSION = 'ada-2026-11-23-3';
 const SHELL = VERSION + '-shell';
 const MEDIA = 'ada-media-v1';
 const FONTS = 'ada-fonts-v1';

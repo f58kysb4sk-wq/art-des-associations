@@ -28,7 +28,7 @@
 <body>
 <a class="skip" href="#main">Aller au contenu</a>
 <div class="preview-banner" id="previewBanner" hidden>APERÇU DU BROUILLON · non publié · <a href="admin/">Retour à l’administration</a></div>
-<header>
+<header id="siteHeader">
   <a class="brand" href="#/" id="brand" aria-label="Accueil"><span id="brandText">L’ART DES ASSOCIATIONS</span><small id="brandSub">THE COLOR ATELIER · COLLECTION ÉTENDUE</small></a>
   <div class="nav">
     <button class="btn install-btn" id="installBtn" data-action="install" hidden>Installer l’app</button>
@@ -44,7 +44,7 @@
         <div class="eyebrow" id="heroEyebrow"></div>
         <h1 id="heroTitle"></h1>
         <p id="heroText"></p>
-        <div class="eyebrow" id="heroCta"></div>
+        <button class="eyebrow hero-cta" id="heroCta" data-action="to-families"></button>
       </div>
       <div class="hero-art" id="heroArt">
         <div class="slab"></div><div class="editorial-orbit orbit-one"></div><div class="editorial-orbit orbit-two"></div><div class="editorial-arch"></div>
@@ -72,7 +72,7 @@
       <div class="all-tools">
         <select class="search" id="intensityAll" aria-label="Intensité"></select>
         <input class="search" id="allSearch" type="search" placeholder="Rechercher une couleur, un nom, un numéro…" aria-label="Rechercher dans toutes les palettes">
-        <button class="btn" data-action="clear-all">Tout afficher ↗</button>
+        <button class="btn" data-action="clear-all">Tout afficher ↗︎</button>
       </div>
       <div class="grid" id="allTiles"></div>
       <p class="gallery-note" id="galleryNote"></p>
@@ -105,7 +105,7 @@
     </div>
     <div class="detail-title">
       <div><div class="eyebrow" id="detailNumber"></div><h2 id="detailName"></h2><p class="muted" id="detailDesc"></p><div class="detail-tags" id="detailTags"></div></div>
-      <div class="detail-actions"><button class="btn" data-action="share">Partager ↗</button><button class="btn dark" id="favBtn" data-action="fav">♡ Enregistrer</button></div>
+      <div class="detail-actions"><button class="btn" data-action="share">Partager ↗︎</button><button class="btn dark" id="favBtn" data-action="fav">♡ Enregistrer</button></div>
     </div>
     <div class="detail-layout">
       <div>
@@ -137,6 +137,14 @@
 <footer><div class="wrap" id="footerText"></div></footer>
 
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<button class="to-top" id="toTop" data-action="top" aria-label="Revenir en haut de la page" hidden>↑</button>
+
+<div class="mk-overlay" id="mkOverlay" hidden>
+  <div class="mk-sheet" id="mkSheet" role="dialog" aria-modal="true" aria-labelledby="mkTitle">
+    <button class="mk-close" id="mkClose" data-action="close-panel" aria-label="Fermer">×</button>
+    <div id="mkContent"></div>
+  </div>
+</div>
 
 <div class="sheet" id="installSheet" role="dialog" aria-modal="true" aria-labelledby="installTitle" hidden>
   <div class="sheet-card">

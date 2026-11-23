@@ -145,3 +145,5 @@ label.check input{width:18px;height:18px;margin:0}
   .frow{grid-template-columns:60px minmax(0,1fr)}.frow .pact{grid-column:1/-1;justify-content:flex-start}.frow.sub{margin-left:14px}
 }
 @media(max-width:540px){.top-actions .btn{padding:8px 11px;font-size:12px}.status{font-size:11px}}
+
+html{font-variant-emoji:text}

@@ -105,7 +105,7 @@
   function fmt(s, vars) {
     var out = esc(s || '');
     if (vars) Object.keys(vars).forEach(function (k) { out = out.split('{' + k + '}').join(esc(vars[k])); });
-    return out.replace(/\*([^*]+)\*/g, '<i>$1</i>').replace(/\n/g, '<br>');
+    return out.replace(/\*([^*]+)\*/g, '<i>$1</i>').replace(/\n/g, '<br>').replace(/([\u2194-\u2199\u2733\u2665\u2B06])(?!\uFE0E)/g, '$1\uFE0E');
   }
   function plain(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
   function pad(n) { return String(n).padStart(2, '0'); }
